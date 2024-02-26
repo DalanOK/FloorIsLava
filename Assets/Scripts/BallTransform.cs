@@ -5,10 +5,6 @@ using UnityEngine;
 public class BallTransform : MonoBehaviour
 {
     public Vector3 scaleChange;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
