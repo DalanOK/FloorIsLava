@@ -8,6 +8,9 @@ public class PlatformRotate : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(rotateChange);
+        if(Time.deltaTime != 0)
+        {
+            transform.Rotate(rotateChange);
+        }
     }
 }
